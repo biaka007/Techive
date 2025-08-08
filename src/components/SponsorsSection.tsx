@@ -4,12 +4,12 @@ const SponsorsSection = () => {
   const sponsors = [
     {
       name: 'n8n',
-      logo: 'https://docs.n8n.io/assets/images/n8n-logo.png',
+      logo: 'https://images.apifyusercontent.com/M92B6mGwwCIHH3sbkvv8pnTMYDTBRQ7MdttOVQ0eyE0/rs:fill:250:250/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSElNQUNaaE9uN1lKNzFkVHUtYWN0b3ItM3NJQzBENWV6Rm9RcEczbXotTTNpS21ldlJpcy1uOG4ucG5n.webp',
       description: 'Workflow Automation'
     },
     {
       name: 'Make',
-      logo: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02NCA4QzMzLjA3MiA4IDggMzMuMDcyIDggNjRDOCA5NC45MjggMzMuMDcyIDEyMCA2NCAxMjBDOTQuOTI4IDEyMCAxMjAgOTQuOTI4IDEyMCA2NEMxMjAgMzMuMDcyIDk0LjkyOCA4IDY0IDhaIiBmaWxsPSIjNjY2NkZGIi8+CjxwYXRoIGQ9Ik02NCAyNEM0Mi4zNTUgMjQgMjQgNDIuMzU1IDI0IDY0QzI0IDg1LjY0NSA0Mi4zNTUgMTA0IDY0IDEwNEM4NS42NDUgMTA0IDEwNCA4NS42NDUgMTA0IDY0QzEwNCA0Mi4zNTUgODUuNjQ1IDI0IDY0IDI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+',
+      logo: 'https://cdn2.futurepedia.io/3b501973b98be992f82711fb73392ec935fb07bb-225x225.png?w=256',
       description: 'Integration Platform'
     },
     {
@@ -55,7 +55,7 @@ const SponsorsSection = () => {
         
         <div className="text-center mt-12">
           <p className="text-gray-400">
-            Trusted by leading technology platforms to deliver exceptional results
+© 2023 TECHive Group. All rights reserved.|BIAKA Corp| Trusted by leading technology platforms to deliver exceptional results
           </p>
         </div>
       </div>
