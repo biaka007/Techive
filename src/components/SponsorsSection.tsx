@@ -55,7 +55,7 @@ const SponsorsSection = () => {
         
         <div className="text-center mt-12">
           <p className="text-gray-400">
-© 2023 TECHive Group. All rights reserved.|BIAKA Corp| Trusted by leading technology platforms to deliver exceptional results
+© 2023 TECHive Group. All rights reserved./BIAKA Corp/ Trusted by leading technology platforms to deliver exceptional results
           </p>
         </div>
       </div>
