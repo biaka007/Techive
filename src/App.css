@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(0, 102, 255, 0.8), 0 0 40px rgba(0, 102, 255, 0.6);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.neon-border {
+  box-shadow: 0 0 20px rgba(0, 102, 255, 0.5), inset 0 0 20px rgba(0, 102, 255, 0.1);
+  border: 1px solid rgba(0, 102, 255, 0.3);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0066FF, #003399);
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 102, 255, 0.4);
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.rotate-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.rotate-3d:hover {
+  transform: rotateY(10deg) rotateX(5deg);
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.4);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(0, 102, 255, 0.8), 0 0 40px rgba(0, 102, 255, 0.6);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #00D4FF, #0066FF, #0033CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tech-grid {
+  background-image: 
+    linear-gradient(rgba(0, 102, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 102, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
