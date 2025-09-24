@@ -36,12 +36,23 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold font-orbitron mb-6 gradient-text">
-              What is an Element?
+              What is Techive?
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-              Each Element is part of our AI agency's modular system—designed to help you automate, 
-              optimize, and scale efficiently. As a leading AI digital agency in Canada, we offer 
-              flexible tools tailored to your business growth.
+              
+Techive is a Canadian-based AI digital agency that empowers businesses to thrive in the digital age. We live in a time where efficiency is no longer a luxury—it's a necessity. Automation is no longer limited to large corporations; it's the tool that allows businesses of any size to optimize, scale, and free up valuable resources.
+
+Today, critical tasks like email management, accounting, customer service, and technical support consume a significant amount of time and effort. By integrating automation, we transform these operations into smooth and efficient processes.
+
+Our modular solutions, also called Techives, are designed to help you:
+
+Automate: Eliminate the repetitive, manual tasks that slow down your team.
+
+Optimize: Improve accuracy and speed in key areas like accounting and support, reducing errors and response times.
+
+Scale: Prepare your business for growth without having to drastically increase operational costs.
+
+With Techive, Canadian companies can focus on what truly matters: strategy, innovation, and connecting with their customers
             </p>
           </div>
 
