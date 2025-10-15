@@ -232,12 +232,7 @@ const Services = () => {
             >
               Contact Us Today
             </button>
-            <a 
-              href="/start-transformation"
-              className="border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all"
-            >
-              Get Free Consultation
-            </a>
+            
           </div>
         </div>
       </div>
