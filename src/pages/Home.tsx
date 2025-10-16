@@ -40,7 +40,7 @@ const Home = () => {
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
               
-Techive is a Canadian-based AI digital agency that empowers businesses to thrive in the digital age. We live in a time where efficiency is no longer a luxury—it's a necessity. Automation is no longer limited to large corporations; it's the tool that allows businesses of any size to optimize, scale, and free up valuable resources.
+Techive is a global AI-powered digital agency with a presence in Mexico, the United States, France, and Ivory Coast that empowers businesses to thrive in the digital age. We live in a time where efficiency is no longer a luxury—it's a necessity. Automation is no longer limited to large corporations; it's the tool that allows businesses of any size to optimize, scale, and free up valuable resources.
 
 Today, critical tasks like email management, accounting, customer service, and technical support consume a significant amount of time and effort. By integrating automation, we transform these operations into smooth and efficient processes.
 
